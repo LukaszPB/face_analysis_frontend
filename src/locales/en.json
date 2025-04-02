@@ -1,0 +1,67 @@
+{
+  "analysis": "Analysis",
+  "eye_color": "Eye color",
+  "hair_color": "Hair color",
+  "face_shape": "Face shape",
+  "skin_tone": "Skin tone",
+  "eye_colors": {
+    "gray": "Gray",
+    "blue": "Blue",
+    "green": "Green",
+    "brown": "Brown",
+    "hazel": "Hazel",
+    "-": "-"
+  },
+  "hair_colors": {
+    "blonde": "Blonde",
+    "black": "Black",
+    "brown": "Brown",
+    "-": "-"
+  },
+  "face_shapes": {
+    "round": "Round",
+    "oval": "Oval",
+    "pear": "Pear",
+    "rectangle": "Rectangle",
+    "square": "Square",
+    "triangle": "Triangle",
+    "-": "-"
+  },
+  "skin_tones": {
+    "winter": "Winter",
+    "autumn": "Autumn",
+    "summer": "Summer",
+    "spring": "Spring",
+    "-": "-"
+  },
+  "eye_colors_description": {
+    "gray": "Gray description",
+    "blue": "Blue description",
+    "green": "Green description",
+    "brown": "Brown description",
+    "hazel": "Hazel description",
+    "-": "Eye color could not be detected, please select it manually"
+  },
+  "hair_colors_description": {
+    "blonde": "Blonde description",
+    "black": "Black description",
+    "brown": "Brown description",
+    "-": "Hair color could not be detected, please select it manually"
+  },
+  "face_shapes_description": {
+    "round": "Round description",
+    "oval": "Oval description",
+    "pear": "Pear description",
+    "rectangle": "Rectangle description",
+    "square": "Square description",
+    "triangle": "Triangle description",
+    "-": "Face shape could not be detected, please select it manually"
+  },
+  "skin_tones_description": {
+    "winter": "Winter description",
+    "autumn": "Autumn description",
+    "summer": "Summer description",
+    "spring": "Spring description",
+    "-": "Skin tone could not be detected, please select it manually"
+  }
+}

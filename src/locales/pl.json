@@ -1,0 +1,67 @@
+{
+  "analysis": "Analiza",
+  "eye_color": "Kolor oczu",
+  "hair_color": "Kolor włosów",
+  "face_shape": "Kształt twarzy",
+  "skin_tone": "Typ cery",
+  "eye_colors": {
+    "gray": "Szare",
+    "blue": "Niebieskie",
+    "green": "Zielone",
+    "brown": "Brązowe",
+    "hazel": "Piwne",
+    "-": "-"
+  },
+  "hair_colors": {
+    "blonde": "Blond",
+    "black": "Czarne",
+    "brown": "Brązowe",
+    "-": "-"
+  },
+  "face_shapes": {
+    "round": "Okrągła",
+    "oval": "Owalna",
+    "pear": "Gruszka",
+    "rectangle": "Prostokątna",
+    "square": "Kwadratowa",
+    "triangle": "Trójkątna",
+    "-": "-"
+  },
+  "skin_tones": {
+    "winter": "Zima",
+    "autumn": "Jesień",
+    "summer": "Lato",
+    "spring": "Wiosna",
+    "-": "-"
+  },
+  "eye_colors_description": {
+    "gray": "Szare opis",
+    "blue": "Niebieskie opis",
+    "green": "Zielone opis",
+    "brown": "Brązowe opis",
+    "hazel": "Piwne opis",
+    "-": "Nie udało się wykryć koloru oczy, prosimy o wybranie go ręcznie"
+  },
+  "hair_colors_description": {
+    "blonde": "Blond opis",
+    "black": "Czarne opis",
+    "brown": "Brązowe opis",
+    "-": "Nie udało się wykryć koloru włosów, prosimy o wybranie go ręcznie"
+  },
+  "face_shapes_description": {
+    "round": "Okrągła opis",
+    "oval": "Owalna opis",
+    "pear": "Gruszka opis",
+    "rectangle": "Prostokątna opis",
+    "square": "Kwadratowa opis",
+    "triangle": "Trójkątna opis",
+    "-": "Nie udało się wykryć kształtu twarzy, prosimy o wybranie go ręcznie"
+  },
+  "skin_tones_description": {
+    "winter": "Zima opis",
+    "autumn": "Jesień opis",
+    "summer": "Lato opis",
+    "spring": "Wiosna opis",
+    "-": "Nie udało się wykryć typu cery, prosimy o wybranie go ręcznie"
+  }
+}
