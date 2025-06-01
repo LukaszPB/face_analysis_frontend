@@ -35,33 +35,56 @@
     "-": "-"
   },
   "eye_colors_description": {
-    "gray": "Szare opis",
-    "blue": "Niebieskie opis",
-    "green": "Zielone opis",
-    "brown": "Brązowe opis",
-    "hazel": "Piwne opis",
+    "gray": "Nie ma koloru oka typowo szarego, dlatego zwracamy uwagę na odcień tej szarości.\n Czy są to oczy bardziej szaroniebieskie czy\nszarozielone. Możemy wówczas dobierać\nsobie odcienie kolorów zbliżone do niebieskich czy zielonych. Przy szarym odcieniu\ntęczówki sugerujemy się, by dobrać cienie\nw cieplejszych barwach, które nie zlewają\nsię z kolorem oka.",
+    "blue": "Niebieski kolor tęczówki występuje coraz\nrzadziej. Często ma odcienie szarości. Jednak\nw typowo jasnych odcieniach typów kolorystycznych, jak Pani Wiosna czy Pani Lato możemy spotkać odcienie niebieskiego. Również\nPani Lodowata Zima może posiadać taki odcień\ntęczówki. Wszystkie te odcienie są barwami\nchłodnymi, dlatego bardziej pasują tutaj cienie\nw cieplejszych tonacjach.\nPolecane cienie: złote, pomarańcze, miedzie,\nciepłe beże, waniliowe, burgundy, czerwienie,\nróże, brązy.",
+    "green": "Taki kolor tęczówki występuje w kilku odcieniach. Kiedy nie jest bardzo intensywny, np.\nprzy typie urody Pani Wiosna, jego delikatne\nbarwy dobrze komponują się w harmoniach\nkolorystycznych. Gdy odcień tęczówki nabiera\nintensywności, możemy pozwolić sobie na kolorystyczne kontrasty.\nPolecane cienie: fiolety, wrzosowe, róże, morele, ",
+    "brown": "Kolor brązowy często idzie w parze z ciemną oprawą oka. Ciemniejszy typ urody\nmoże sobie pozwolić na ciemniejsze odcienie na oku. Ładnie prezentuje się również\nw makijażu typu smoky eyes. Odcienie dobieramy w zależności od tego, czy brąz naszej tęczówki jest cieplejszy, czy ma chłodniejsze tony.\nPolecane cienie: pastelowe fiolety, wszelkie odcienie turkusu, granaty, zieleń turkusowa, szampański, błękity, różane, liliowe.",
+    "hazel": "Piwny kolor oczu zazwyczaj ma cieplejszy\nodcień, dlatego dobrze wyglądają na nim\njasne i chłodne błękity, niebieskie oraz granaty. Przy takiej palecie barw można stworzyć różnorodne makijaże.\nPolecane cienie: szmaragdowy, niebieskości, ciemniejsze fiolety, intensywniejszy\nturkus, zieleń butelkowa, śliwka, różowofioletowe pastele.",
     "-": "Nie udało się wykryć koloru oczy, prosimy o wybranie go ręcznie"
   },
   "hair_colors_description": {
-    "blonde": "Blond opis",
-    "black": "Czarne opis",
-    "brown": "Brązowe opis",
+    "blonde": "Makijaż dla blondynek najlepiej wygląda w delikatnych, jasnych tonacjach. Cera przy blond włosach bywa jasna, dlatego warto unikać zbyt ciężkiego konturowania i ciemnych kolorów. Dobrze sprawdzają się pastelowe cienie do powiek, jasne róże i subtelne szminki. Taki makijaż podkreśla świeżość i naturalność.",
+    "black": "Przy brązowych włosach dobrze wyglądają zarówno ciepłe, jak i chłodne tony w makijażu. Cera bywa bardziej nasycona, więc można pozwolić sobie na mocniejszy makijaż oczu i ust. Odcienie brązu, złota, fioletu i burgundu świetnie komponują się z tą kolorystyką. Makijaż może być bardziej wyrazisty bez ryzyka przytłoczenia rysów twarzy.",
+    "brown": "Czarnym włosom często towarzyszy mocny kontrast ze skórą, co sprawia, że wyrazisty makijaż wygląda naturalnie. Sprawdzają się intensywne kolory, takie jak czerwienie, głębokie fiolety i grafitowe szarości. Przy tej kolorystyce warto postawić na dobrze zarysowane brwi, eyeliner i zdecydowane usta.",
     "-": "Nie udało się wykryć koloru włosów, prosimy o wybranie go ręcznie"
   },
   "face_shapes_description": {
-    "round": "Okrągła opis",
-    "oval": "Owalna opis",
-    "pear": "Gruszka opis",
-    "rectangle": "Prostokątna opis",
-    "square": "Kwadratowa opis",
-    "triangle": "Trójkątna opis",
+    "round": " Zazwyczaj ma 3 części równe. W związku \nz tym, żeby optycznie wydłużyć część pierw\nszą i ostatnią musimy dać więcej jaśniejsze\ngo produktu. Zamiast okręgów pojawiają \nsię nam pionowe owale, które powodują, że \nczęść czołowa i broda wydają się dłuższe. \nPrzy tym rodzaju twarzy pojawia się rów\nnież problem, że jest zbyt szeroka, dlatego \nważne by ją “wyszczuplić “ chowając boki \ntwarzy bronzerem oraz często pojawiający \nsię mocno zarysowany podbródek. Zazna\nczamy kości policzkowe modelując je tak, by \nnabrały naturalnego cienia pod kośćmi po\nliczkowymi. Linie oczodołów rozświetlamy \nw taki sam sposób jak przy twarzy owalnej.",
+    "oval": " 1 część – długa\n 2 część – krótka\n 3 część – długa\n W tym przypadku na środek czoła apli\nkujemy jaśniejszy produkt w kształcie \nkoła, analogicznie postępujemy na brodzie. \nW środkowej części nakładamy trójkąty, \nktóre mieszczą się na szerokość oka, aż do \nskrzydełek oka. Zaznaczamy również kości \npoliczkowe, mniej więcej od połowy ucha do\nkładnie tam, gdzie lekko zaczyna zapadać się \ncień kości.",
+    "pear": "Przy twarzy trapez mamy pierwszą część \ndługą, ale za to wąską, drugą część długą, \na ostatnią krótką. Oczy często leżą blisko \nsiebie, ale za to pojawiają się wydatne usta, \ngdyż ostatnia część twarzy jest bardzo sze\nroka. Przy typowym trapezie pojawiają się \nrównież mocno zaznaczone kości policzko\nwe. Przy typowej gruszce kości nie są tak \nmocno zaakcentowane, ale twarz podobnie \njak w okręgu może być trochę pyzata bądź \nwypukła na policzkach. Poszerzamy czoło \naplikując jaśniejszy produkt w postaci owa\nlu w poziomie, a na brodzie w postaci owalu \nw pionie. Bardzo ważnym elementem są rów\nnież nasze trójkąty, które ciągną się dużo dalej \nniż oczy aż w kierunku skroni, by optycznie \nposzerzyć miejsce, w którym twarz jest zbyt \nwąska. Bronzerem chowamy kości żuchwy, \nzaznaczamy kości policzkowe oraz jeżeli jest \ntaka potrzeba lekko modelujemy czoło.",
+    "rectangle": " Przy twarzy prostokątnej mamy dokładnie \ntakie proporcje jak przy twarzy owalnej, \na jednak nie jest to twarz prosta do kontu\nrowania. Bardzo często jest to twarz dużo \nwiększa od pozostałych proporcji ciała. Do\nchodzą kanty w postaci kości żuchwy czy \nkanciastego czoła i w związku z tym musi\nmy całkowicie odwrócić uwagę od tych dys\nproporcji. Dlatego malujemy w miejscach \nnajjaśniejszego produktu odwrócone trój\nkąty. A miejsca najbardziej wystające poza \nowal chowamy produktami do modelażu.",
+    "square": "Twarz kwadratowa posiada najczęściej  \n3 części równe. Dodatkowo charakteryzuje się \nkanciastą żuchwą oraz ostro zakończonym \nczołem. Dlatego jak w pozostałych twarzach \nmusimy koniecznie wydłużyć optycznie dwie \nstrefy części pierwszej i trzeciej. Aby w odpo\nwiedni sposób schować również ostre kształty \ntej twarzy, należy zaaplikować w odpowiedni \nsposób bronzery. Najlepszym sposobem jest \nzaznaczenie kości policzkowych i schowanie \nkości żuchwy. Nie zapominamy o rozjaśnieniu \nokolic oczu.",
+    "triangle": "Twarz trójkąt ma pierwszą część\nkrótką i szeroką, a drugą i trzecią\ndługą. Jest pociągła, z długim\nnosem lub spiczastą brodą. Zasada konturo\nwania jest tu inna, inaczej aplikujemy\nkosmetyki. Krótkie, szerokie czoło\nwydłużamy rozjaśniaczami i ukrywamy boki.\nŚrodkową część optycznie skracamy i poszerzamy\nliniami poziomymi. Trójkąty pod okiem malujemy,\nidąc od kącika wewnętrznego do skrzydełka nosa i ucha.\nMiędzy jasnym produktem a bronzerem,\nułożonym poziomo, dajemy róż i rozświetlacz\nna kości policzkowej. Broda, zbyt wąska lub spiczasta,\njest lekko poszerzana i skracana.",
     "-": "Nie udało się wykryć kształtu twarzy, prosimy o wybranie go ręcznie"
   },
   "skin_tones_description": {
-    "winter": "Zima opis",
-    "autumn": "Jesień opis",
-    "summer": "Lato opis",
-    "spring": "Wiosna opis",
+    "winter": "Pani Zima to typ chłodny, kontrastowy i wyrazisty, z kolorami czerni, bieli, chłodnej czerwieni, granatu, fioletu i chłodnego różu. Cera porcelanowa lub oliwkowa, oczy wyraziste, ciemne lub lodowate niebieskie, włosy ciemne — czarne lub popielate. Makijaż mocny i kontrastowy, czarna kreska, czerwone usta, biżuteria srebrna, platynowa lub z diamentami.",
+    "autumn": "Pani Jesień to typ ciepły, złocisty i intensywny, pełen soczystych, ciepłych barw. Kolory to wszystkie odcienie brązu, miedzi, rudości, musztardy i oliwkowej zieleni, a biel powinna być kremowa, waniliowa. Cera ciepła, od jasnej pergaminowej do złotobrązowej, często z piegami lub jednolita. Oczy intensywne, brązowe, zielone lub miedziane, włosy grube i błyszczące, od rudych po ciemne kasztany z miedzianą poświatą. Makijaż powinien być wyrazisty, ale nie przesadzony — podkład ciepły, róż w odcieniach oranżu lub cegły, cienie ciepłe: oliwka, złoty brąz, pomarańcz, a kreski i tusz najlepiej brązowe, bordowe lub czarne. Pomadki intensywne, koralowe i miedziane. Garderoba bogata w ciepłe kolory i wzory rustykalne, a biżuteria złota, bursztynowa i koralowa.",
+    "summer": "Pani Lato to typ chłodny, pastelowy i romantyczny, z kolorami jasnymi, rozbielonymi i szarawymi, jak letnia przyroda. Kolory to jasne pastele, miętowa zieleń, zgaszone róże, błękity i szarości. Cera może być problematyczna, chłodna w tonacji różu lub beżu, często z naczynkami. Oczy matowe, zamglone, w odcieniach szaroniebieskim, szarozielonym lub piwnym. Włosy zwykle popielate blondy i brązy. Makijaż powinien być delikatny, z chłodnym podkładem w odcieniu różu lub beżu, róż w chłodnych odcieniach, cienie pastelowe, przytłumione, kreski szare lub granatowe, tusz czarny lub granatowy. Brwi cienkie, w kolorze szarości, a pomadki w chłodnych, stonowanych różach i fioletach. Garderoba pastelowa i jasna, biżuteria srebrna lub platynowa z perłami.",
+    "spring": "Pani Wiosna to typ ciepły, delikatny i świeży, kojarzący się z pierwszymi kwiatami, liśćmi i ciepłym słońcem. Jej kolory to łososiowy, morelowy, pistacjowy, ciepły brąz i jasny niebieski. Unika się czystej bieli i czerni, zastępując je kremową bielą i jasnym granatem. Cera jest jasna, lekko brzoskwiniowa z piegami i naturalnym rumieńcem, oczy jasne i szkliste, włosy zwykle blond lub złociste z naturalnymi refleksami. Makijaż powinien być lekki i subtelny — podkład jasny, róż łososiowy lub morelowy, cienie do powiek pastelowe i ciepłe, kreski i tusz delikatne, najlepiej brązowe lub niebieskie. Pomadki w ciepłych, jasnych odcieniach różu i łososia. Garderoba powinna być jasna, świeża i subtelna, a biżuteria delikatna, najlepiej w jasnym złocie, koralu lub bursztynie.",
     "-": "Nie udało się wykryć typu cery, prosimy o wybranie go ręcznie"
-  }
+  },
+  "makeup_tips": [
+    "Makijaż najlepiej wygląda na dobrze przygotowanej skórze. Użyj lekkiego kremu nawilżającego, aby baza nie osadzała się na suchych partiach.",
+    "Primer wygładza skórę i przedłuża trwałość makijażu. Wybierz bazę dopasowaną do swojego typu cery (matującą, nawilżającą, rozświetlającą).",
+    "Nałóż grubszą warstwę pudru sypkiego pod oczy i pozostaw na kilka minut. Po usunięciu nadmiaru makijaż będzie bardziej utrwalony i jaśniejszy w tej strefie.",
+    "Użyj bronzera, różu i rozświetlacza, by podkreślić rysy twarzy. Bronzer nakładaj pod kości policzkowe, róż na środek policzków, a rozświetlacz na szczyty twarzy.",
+    "Spryskaj twarz mgiełką utrwalającą, by makijaż dłużej się trzymał i wyglądał świeżo przez cały dzień.",
+    "Wypełnij brwi cieniem, kredką lub żelem. Dobierz odcień zbliżony do naturalnego koloru włosków dla efektu naturalnego.",
+    "Rozświetlacz nałożony w kącikach oczu i pod łukiem brwiowym optycznie otwiera spojrzenie.",
+    "Podkład najlepiej aplikować gąbeczką lub pędzlem, aby uzyskać jednolite krycie bez smug.",
+    "Używaj korektora o ton jaśniejszego niż podkład, by rozjaśnić okolice pod oczami.",
+    "Matowe pomadki są trwałe, ale mogą wysuszać usta – przed aplikacją nałóż balsam nawilżający.",
+    "Aby oczy wyglądały na większe, użyj jasnej kredki na linii wodnej dolnej powieki.",
+    "Cień w załamaniu powieki dodaje głębi spojrzeniu i modeluje oko.",
+    "Zawsze blenduj cienie, by uniknąć ostrych linii i uzyskać płynne przejścia kolorów.",
+    "Aby uniknąć osypywania się cieni, nałóż bazę pod cienie lub korektor na powiekę.",
+    "Nie zapominaj o dolnej powiece – delikatny cień podkreśli oko i dopełni makijaż.",
+    "Tuszuj rzęsy od nasady aż po same końce z lekkim ruchem zygzakowatym.",
+    "Jeśli chcesz, by kontur ust był trwały, użyj konturówki przed nałożeniem pomadki.",
+    "Używaj beauty blendera na wilgotno – wtedy lepiej stapia produkty z cerą.",
+    "Róż w kremie daje naturalny efekt i świetnie sprawdza się przy cerze suchej.",
+    "Nie trzyj twarzy po nałożeniu makijażu – dotyk może ścierać produkty i zaburzać trwałość."
+  ],
+  "announcement": "Ogłoszenie!!"
 }

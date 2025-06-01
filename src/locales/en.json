@@ -35,33 +35,56 @@
     "-": "-"
   },
   "eye_colors_description": {
-    "gray": "Gray description",
-    "blue": "Blue description",
-    "green": "Green description",
-    "brown": "Brown description",
-    "hazel": "Hazel description",
-    "-": "Eye color could not be detected, please select it manually"
+    "gray": "There is no typically gray eye color, so we pay attention to the shade of this gray.\nAre the eyes more gray-blue or gray-green?\nWe can then choose shades of colors similar to blue or green. For a gray iris shade,\nwe suggest choosing eyeshadows in warmer tones that don't blend in with the eye color.",
+    "blue": "Blue iris color is becoming increasingly rare. It often has shades of gray. However,\nin typically light color types such as Spring or Summer, blue shades can be found. Also,\nCool Winter may have this iris shade. All these tones are cool,\nso eyeshadows in warmer tones are more suitable here.\nRecommended shadows: golds, oranges, coppers,\nwarm beiges, vanilla, burgundy, reds,\npinks, browns.",
+    "green": "This iris color appears in several shades. When it's not very intense, e.g.,\nin the Spring beauty type, its delicate colors go well with color harmonies.\nWhen the iris shade becomes more intense, we can allow ourselves some color contrast.\nRecommended shadows: purples, heathers, pinks, apricots.",
+    "brown": "Brown eye color is often accompanied by dark lashes and brows. Darker beauty types\ncan afford darker shades on the eyes. It also looks great\nin smoky eye makeup. Shades are chosen depending on whether the brown of the iris is warmer or has cooler tones.\n\nRecommended shadows: pastel purples, all shades of turquoise, navy blues, turquoise green, champagne, light blues, rosy, lilacs.",
+    "hazel": "Hazel eye color usually has a warmer\nshade, which is why light and cool blues, blue tones, and navy work well with it. With this color palette, you can create a variety of makeup looks.\nRecommended shadows: emerald, blues, deeper purples, more intense\nturquoise, bottle green, plum, pinkish-violet pastels.",
+    "-": "The eye color could not be detected, please select it manually."
   },
   "hair_colors_description": {
-    "blonde": "Blonde description",
-    "black": "Black description",
-    "brown": "Brown description",
-    "-": "Hair color could not be detected, please select it manually"
+    "blonde": "Makeup for blondes looks best in delicate, light tones. Blonde hair is often paired with fair skin, so it's worth avoiding heavy contouring and dark colors. Pastel eyeshadows, light blushes, and subtle lipsticks work well. This type of makeup enhances freshness and natural beauty.",
+    "black": "Dark brown hair pairs well with both warm and cool tones in makeup. The complexion is often richer, allowing for bolder eye and lip makeup. Shades of brown, gold, purple, and burgundy complement this hair color perfectly. The look can be more expressive without overpowering facial features.",
+    "brown": "Black hair often creates a strong contrast with the skin, making bold makeup look natural. Intense colors such as reds, deep purples, and charcoal grays work well. Defined brows, eyeliner, and bold lips are great choices for this hair color.",
+    "-": "Hair color could not be detected. Please select it manually."
   },
   "face_shapes_description": {
-    "round": "Round description",
-    "oval": "Oval description",
-    "pear": "Pear description",
-    "rectangle": "Rectangle description",
-    "square": "Square description",
-    "triangle": "Triangle description",
-    "-": "Face shape could not be detected, please select it manually"
+    "round": "The face is usually divided into three equal parts. To visually elongate the forehead and chin area, apply more light product in those regions. Replace circular shapes with vertical ovals to make the top and bottom sections appear longer. This face type often appears too wide, so use bronzer to slim the sides and reduce the prominence of a strong jawline. Emphasize the cheekbones by contouring beneath them. Highlight the eye sockets in a similar way to oval faces.",
+    "oval": "1st part – long, 2nd part – short, 3rd part – long. Apply a lighter product in a circular shape on the forehead and chin. In the middle of the face, apply triangle shapes under the eyes, about the width of the eyes, extending to the nostrils. Contour the cheekbones from the middle of the ear to the point where a natural shadow begins to form.",
+    "pear": "This face shape has a long but narrow forehead, a long midsection, and a short, wide bottom part. The eyes are often close-set, and the lips are pronounced due to the wide lower part of the face. With a typical pear shape, cheekbones are not very prominent, but the face can appear chubby or full. Widen the forehead with a horizontal oval of light product and brighten the chin with a vertical oval. Apply highlighter triangles from the eyes to the temples to create balance. Use bronzer to contour the jawline and cheekbones, and slightly model the forehead if needed.",
+    "rectangle": "The rectangular face shares proportions with the oval face, but it’s usually larger and more angular. The jaw and forehead may appear boxy, so contouring is used to soften these features. Apply inverted triangles of highlight in key areas to draw attention away from harsh angles. Use contour products to hide the most prominent areas outside the oval shape.",
+    "square": "A square face is usually divided into three equal parts and features a strong jawline and sharply defined forehead. To visually elongate the top and bottom sections, use lighter tones. Soften the angular shape by contouring with bronzer, especially around the jaw. Highlight the area around the eyes for a fresh look.",
+    "triangle": "This face shape usually has a short but wide forehead, with a long midsection and a narrow, pointed chin. Contouring must be approached differently here. Use brightening products to elongate and narrow the forehead. Shorten and widen the midsection with horizontal contouring techniques. Apply highlighter in a triangle under the eyes, from the inner corners to the nostrils and toward the ears. Between the light and dark areas, use blush for a natural flush and highlighter on top of the cheekbones. The chin, often too narrow or pointed, should be slightly widened and shortened with contour.",
+    "-": "Face shape could not be detected. Please select it manually."
   },
   "skin_tones_description": {
-    "winter": "Winter description",
-    "autumn": "Autumn description",
-    "summer": "Summer description",
-    "spring": "Spring description",
+    "winter": "Winter Lady is a cool, contrasting, and striking type, with colors like black, white, cool red, navy, purple, and cool pink. Complexion is porcelain or olive, eyes are striking—dark or icy blue, hair is dark—black or ash. Makeup is strong and contrasting, black eyeliner, red lips; jewelry is silver, platinum, or diamond.",
+    "autumn": "Autumn Lady is a warm, intense, and golden type, with warm shades of brown, copper, red, and mustard. Complexion ranges from light to golden brown, eyes are intense brown or green, hair is red or chestnut. Makeup is bold and warm in gold, olive, and orange shades; jewelry is gold, amber, and coral.",
+    "summer": "Summer Lady is a cool, pastel, and romantic type with soft, muted colors like mint green, dusty pinks, blues, and grays. Her complexion is cool, pinkish or beige, eyes are soft and hazy, hair is ash blonde or brown. Makeup is subtle, pastel, and cool-toned; jewelry is silver or platinum with pearls.",
+    "spring": "Spring Lady is a warm, delicate, and fresh type, associated with early flowers and warm sunshine. Her colors are salmon, apricot, pistachio, warm brown, and light blue. She has a light, slightly peachy complexion, bright, glassy eyes, and golden or blonde hair. Makeup is light and natural in warm tones, jewelry is delicate, gold or coral.",
     "-": "Skin tone could not be detected, please select it manually"
-  }
+  },
+  "makeup_tips": [
+    "Makeup looks best on well-prepped skin. Use a light moisturizer so your base doesn’t cling to dry patches.",
+    "Primer smooths the skin and extends makeup wear. Choose one that suits your skin type (mattifying, hydrating, illuminating).",
+    "Apply a thick layer of loose powder under your eyes and leave it for a few minutes. After brushing it off, your makeup will be more set and brighter in that area.",
+    "Use bronzer, blush, and highlighter to enhance facial features. Apply bronzer under cheekbones, blush to the apples of the cheeks, and highlighter to the high points of the face.",
+    "Spritz your face with a setting spray to help makeup last longer and stay fresh throughout the day.",
+    "Fill in your brows with powder, pencil, or gel. Choose a shade close to your natural brow color for a natural look.",
+    "Highlighter applied to the inner corners of the eyes and under the brow bone opens up the eyes visually.",
+    "Apply foundation with a sponge or brush for even coverage without streaks.",
+    "Use a concealer one shade lighter than your foundation to brighten the under-eye area.",
+    "Matte lipsticks are long-lasting but can dry out lips – apply a moisturizing balm beforehand.",
+    "To make your eyes look bigger, apply a nude or white pencil to your lower waterline.",
+    "Eyeshadow in the crease adds depth and contours the eye.",
+    "Always blend your eyeshadows to avoid harsh lines and create smooth color transitions.",
+    "To avoid fallout, apply an eyeshadow base or concealer to your lids before eyeshadow.",
+    "Don’t forget the lower lash line – a soft shadow there will define the eyes and complete the look.",
+    "Apply mascara from the roots to the tips using a slight zigzag motion.",
+    "For longer-lasting lips, use a lip liner before applying lipstick.",
+    "Use your beauty blender damp – it helps blend products more seamlessly into the skin.",
+    "Cream blush gives a natural effect and works great for dry skin.",
+    "Avoid rubbing your face after applying makeup – touching it can disturb product placement and wear."
+  ],
+  "announcement": "Announcement!!"
 }

@@ -21,7 +21,8 @@ import pl from './locales/pl.json';
 const i18n = createI18n({
   locale: 'en', // Default language
   fallbackLocale: 'en', // Fallback if a translation is missing
-  messages: { en, pl }
+  messages: { en, pl },
+  returnObjects: true
 });
 
 

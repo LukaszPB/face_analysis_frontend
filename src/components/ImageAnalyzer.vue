@@ -9,12 +9,17 @@
       @change="onFileChange">
     </v-file-input>
 
+    <MakeupFunFact v-if="!image"/>
+
     <v-card v-if="image && traits">
-      <v-card-text>
+      <v-card-text class="background">
         <v-row>
 
           <v-col>
-            <v-img :src="image" contain  @click="deleteImage" class="custom-border"></v-img>
+            <v-img :src="image" class="custom-border" width="600" height="auto"></v-img><br>
+            <v-btn class="custom-border" icon @click="deleteImage">
+              <v-icon>mdi-delete</v-icon>
+            </v-btn>
           </v-col>
 
           <v-col class="traits-column">
@@ -68,8 +73,10 @@
 <script>
 import axios from "axios";
 import {sk} from "vuetify/locale";
+import MakeupFunFact from "@/components/makeupFunFact.vue";
 export default {
   name: "ImageAnalizer",
+  components: {MakeupFunFact},
   data() {
     return {
       image: null,
@@ -153,8 +160,8 @@ export default {
 </script>
 <style scoped>
 .v-file-input {
-  width: 300px;
-  height: 200px;
+  width: 600px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -165,7 +172,7 @@ export default {
   cursor: pointer;
   transition: 0.3s ease-in-out;
   color: #999;
-  font-size: 16px;
+  font-size: 64px;
 }
 
 .v-file-input:hover {
@@ -201,9 +208,7 @@ export default {
 .v-card{
   border-radius: 12px;
 }
-.custom-border {
-  border: 5px solid #c59ac2;
-  border-radius: 12px;
+.background {
   background: linear-gradient(135deg, #fde2e4, #c59ac2);
 }
 </style>

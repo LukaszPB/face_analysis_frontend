@@ -1,21 +1,16 @@
 <template>
-  <v-app-bar app color="#ffe3e6" density="compact" dark>
+  <v-app-bar app color="#ffe3e6" density="default" dark>
+    <span class="icon-wrapper">
+      <v-img
+        src="https://cdn.shopify.com/s/files/1/0882/8731/4264/files/logo_vena_oko_43b9691e-80a9-4932-97d9-7945255f40cc.png?v=1737390939"
+        class="logo"
+        alt="Ikona"
+        cover
+      />
+    </span>
 
-    <!-- Lewa strona: Logo + Nazwa -->
-    <v-img
-      src="https://cdn.shopify.com/s/files/1/0882/8731/4264/files/logo_vena_oko_43b9691e-80a9-4932-97d9-7945255f40cc.png?v=1737390939"
-      alt="Vena Art Logo"
-      class="logo"
-      contain
-    />
-<!--    <p class="vena-title">Venna Art</p>-->
-
-    <!-- Wyśrodkowanie tytułu -->
-<!--    <v-spacer></v-spacer>-->
     <h1 class="title">Vena Art's Makeup Advisor</h1>
-    <v-spacer></v-spacer>
 
-    <!-- Przycisk języka po prawej -->
     <v-btn class="language-button" @click="changeLanguage">
       <v-icon>mdi-translate</v-icon>
       {{ languages[index] }}
@@ -56,9 +51,9 @@ export default {
 }
 
 .logo {
-  height: 40px; /* Dopasowanie wysokości logo */
-  width: auto;
-  margin-left: 10px;
+  height: 48px; /* Dopasowanie wysokości logo */
+  width: 48px;
+  margin-left: 60px;
   alignment: left;
 }
 

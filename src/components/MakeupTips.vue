@@ -1,7 +1,7 @@
 <template>
   <v-row>
-    <v-col>
-      <TipDescription :title="traits.eye_color" description="eye_colors"/><br/>
+    <v-col align-self="start">
+      <TipDescription align="left" :title="traits.eye_color" description="eye_colors"/><br/>
       <TipDescription :title="traits.hair_color" description="hair_colors"/>
     </v-col>
     <v-col>

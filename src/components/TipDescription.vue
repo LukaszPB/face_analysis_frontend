@@ -1,9 +1,23 @@
 <template>
   <v-card>
-    <v-card-title>{{$t(`${description.slice(0,description.length-1)}`)}}: {{$t(`${description}.${title}`)}}</v-card-title>
-    <v-card-text>
-      {{$t(`${description}_description.${title}`)}}
-    </v-card-text>
+    <v-row>
+      <v-col cols="8">
+        <v-card-title>
+          {{$t(`${description.slice(0,description.length-1)}`)}}: {{$t(`${description}.${title}`)}}
+        </v-card-title>
+        <v-card-text>
+          {{$t(`${description}_description.${title}`)}}
+        </v-card-text>
+      </v-col>
+      <v-col cols="4" class="d-flex align-center">
+        <v-img
+          :src="getImagePath()"
+          height="300"
+          contain
+          class="mt-4"
+        ></v-img>
+      </v-col>
+    </v-row>
   </v-card>
 
 </template>
@@ -21,13 +35,19 @@ export default {
       required: true
     }
   },
+  methods: {
+    getImagePath() {
+        return `src/assets/images/${this.description}/${this.title}.png`;
+    }
+  }
 }
 </script>
 
 <style scoped>
 .v-card {
   width: 100%;
-  min-height: 300px;
+  min-height: 450px;
+  max-height: 450px;
   border-radius: 12px;
   padding: 16px;
   text-align: left;
