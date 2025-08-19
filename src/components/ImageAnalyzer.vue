@@ -139,14 +139,19 @@ export default {
       formData.append('image', file);
 
       try {
-        const response = await axios.post('http://127.0.0.1:5000/process-image', formData, {
-          headers: { 'Content-Type': 'multipart/form-data' }
-        });
+        const response = await axios.post(
+          'https://face-analysis-server-0wf3.onrender.com/process-image',
+          formData,
+          {
+            headers: { 'Content-Type': 'multipart/form-data' }
+          }
+        );
 
         console.log(response.data)
         this.traits = response.data
         this.$emit("updateTraits", this.traits);
       } catch (error) {
+        console.log(error)
         this.message = `Błąd przesyłania: ${error.response ? error.response.data : error.message}`;
       }
     },
