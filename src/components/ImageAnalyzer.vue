@@ -165,7 +165,8 @@ export default {
 </script>
 <style scoped>
 .v-file-input {
-  width: 600px;
+  width: 100%;               /* dopasuj do szerokości ekranu */
+  max-width: 600px;          /* ale nigdy więcej niż 600px */
   height: 400px;
   display: flex;
   align-items: center;
@@ -178,6 +179,7 @@ export default {
   transition: 0.3s ease-in-out;
   color: #999;
   font-size: 64px;
+  margin: 0 auto;            /* wyśrodkuj na większych ekranach */
 }
 
 .v-file-input:hover {
