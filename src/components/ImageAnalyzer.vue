@@ -147,7 +147,7 @@ export default {
           }
         );
 
-        console.log(response.data)
+        console.log(response)
         this.traits = response.data
         this.$emit("updateTraits", this.traits);
       } catch (error) {

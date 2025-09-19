@@ -46,8 +46,8 @@ export default {
 <style scoped>
 .v-card {
   width: 100%;
-  min-height: 450px;
-  max-height: 450px;
+  /*min-height: 450px;*/
+  /*max-height: 450px;*/
   border-radius: 12px;
   padding: 16px;
   text-align: left;
