@@ -1,5 +1,8 @@
 <template>
   <v-container align="center">
+    <p v-if="error_message" class="error-message">
+      {{ error_message }}
+    </p>
     <v-file-input
       v-if="!image"
       hide-input
@@ -80,7 +83,8 @@ export default {
   data() {
     return {
       image: null,
-      traits: null,
+      error_message: null,
+      traits: null
     };
   },
   computed: {
@@ -135,6 +139,7 @@ export default {
       this.analizeImage(file)
     },
     async analizeImage(file) {
+      this.error_message = null;
       const formData = new FormData();
       formData.append('image', file);
 
@@ -152,10 +157,19 @@ export default {
         this.$emit("updateTraits", this.traits);
       } catch (error) {
         console.log(error)
+        this.error_message = error.response.data;
+        this.traits = {
+          eye_color: "-",
+          face_shape: "-",
+          hair_color: "-",
+          skin_tone: "-"
+        }
+        this.$emit("updateTraits", this.traits);
         this.message = `Błąd przesyłania: ${error.response ? error.response.data : error.message}`;
       }
     },
     deleteImage() {
+      this.error_message = null
       this.image = null
       this.traits = {}
       this.$emit("updateTraits", this.traits);
@@ -217,5 +231,14 @@ export default {
 }
 .background {
   background: linear-gradient(135deg, #fde2e4, #c59ac2);
+}
+.error-message {
+  color: #e53935;          /* czerwony odcień */
+  font-weight: 600;        /* pogrubienie */
+  margin: 8px 0;           /* odstęp od innych elementów */
+  padding: 6px 10px;       /* trochę miejsca w środku */
+  border: 1px solid #e53935;
+  border-radius: 6px;
+  background-color: #fdecea; /* delikatne tło */
 }
 </style>
