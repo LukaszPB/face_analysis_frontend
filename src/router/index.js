@@ -12,7 +12,7 @@ import mainPage from "@/pages/mainPage.vue";
 
 const routes = [
   { path: "/", component: mainPage},
-  { path: "/access-denied", component: accessDeniedPage }, // Upewnij się, że ta ścieżka istnieje
+  { path: "/access-denied", component: accessDeniedPage },
 ];
 
 const router = createRouter({
