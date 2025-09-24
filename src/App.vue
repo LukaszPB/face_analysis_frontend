@@ -8,6 +8,7 @@
 import router from "@/router/index.js";
 
 export default {
+  // TEN FRAGMENT KODU ODKOMENTUJESZ I WSTAWISZ WASZ NOWY URL Z KTÓREGO MACIE DOPUSZCZAĆ DOSTĘP
   // beforeCreate() {
   //    const allowedReferrer = "http://127.0.0.1:5500/";
   //    console.log(document.referrer)

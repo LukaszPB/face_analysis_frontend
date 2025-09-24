@@ -6,7 +6,8 @@
     class="announcement-bar"
     hide-on-scroll
   >
-    <h1 class="title" v-text="$t('announcement')"></h1>
+    <!--TUTAJ PODMIENIASZ LINK OGŁOSZENIA A W PLIKU en.json i pl.json WPISUJESZ WYSWIETLANY TEKST W DWÓCH JĘZYKACH-->
+    <a class="title" href="https://www.w3schools.com" v-text="$t('announcement')"></a>
   </v-app-bar>
 </template>
 
