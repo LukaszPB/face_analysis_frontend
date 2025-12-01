@@ -9,11 +9,11 @@
       />
     </span>
 
-    <h1 class="title">Vena Art's Makeup Advisor</h1>
+    <h1 class="title">Vena Art</h1>
 
     <v-btn class="language-button" @click="changeLanguage">
-      <v-icon>mdi-translate</v-icon>
-      {{ languages[index] }}
+
+      {{ languages[(index+1)%2] }}
     </v-btn>
   </v-app-bar>
 </template>
@@ -23,7 +23,7 @@ export default {
   name: "Header",
   data() {
     return {
-      languages: ['en', 'pl'],
+      languages: ['pl', 'en'],
       index: 0
     };
   },
@@ -38,10 +38,10 @@ export default {
 
 <style scoped>
 .title {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: bold;
   text-align: center;
-  flex-grow: 1; /* Dzięki temu tytuł pozostaje na środku */
+  flex-grow: 1;
   color: #d63384;
 }
 .language-button {
@@ -51,15 +51,9 @@ export default {
 }
 
 .logo {
-  height: 48px; /* Dopasowanie wysokości logo */
+  height: 48px;
   width: 48px;
   margin-left: 60px;
   alignment: left;
-}
-
-.vena-title {
-  font-size: 18px;
-  color: #d63384;
-  font-weight: bold;
 }
 </style>

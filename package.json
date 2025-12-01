@@ -13,6 +13,7 @@
     "@mdi/font": "7.4.47",
     "axios": "^1.8.4",
     "filepond": "^4.32.7",
+    "heic2any": "^0.0.4",
     "roboto-fontface": "*",
     "vue": "^3.4.31",
     "vue-filepond": "^7.0.4",

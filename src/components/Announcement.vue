@@ -7,7 +7,7 @@
     hide-on-scroll
   >
     <!--TUTAJ PODMIENIASZ LINK OGŁOSZENIA A W PLIKU en.json i pl.json WPISUJESZ WYSWIETLANY TEKST W DWÓCH JĘZYKACH-->
-    <a class="title" href="https://www.w3schools.com" v-text="$t('announcement')"></a>
+    <a class="title" href="https://venaart.com/" v-text="$t('announcement')"></a>
   </v-app-bar>
 </template>
 

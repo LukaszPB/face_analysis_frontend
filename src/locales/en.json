@@ -86,5 +86,12 @@
     "Cream blush gives a natural effect and works great for dry skin.",
     "Avoid rubbing your face after applying makeup – touching it can disturb product placement and wear."
   ],
+  "error_messages": {
+    "NO_FILE": "Oops! Please select a photo for analysis. It looks like no file was uploaded.",
+    "NO_FACE": "No face detected. Please ensure the photo clearly shows a single face looking forward.",
+    "TOO_MANY_FACES": "Too many faces detected (Found: {count}). Please upload a photo with only one person.",
+    "SERVER_ERROR": "We apologize, an unexpected server error occurred. Please try again shortly or use a different photo.",
+    "UNKNOWN_UPLOAD_ERROR": "An unknown issue occurred during image upload. Please check the file format or try again."
+  },
   "announcement": "Announcement!!"
 }

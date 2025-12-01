@@ -19,8 +19,8 @@ import pl from './locales/pl.json';
 
 // Create Vue I18n instance
 const i18n = createI18n({
-  locale: 'en', // Default language
-  fallbackLocale: 'en', // Fallback if a translation is missing
+  locale: 'pl', // Default language
+  fallbackLocale: 'pl', // Fallback if a translation is missing
   messages: { en, pl },
   returnObjects: true
 });

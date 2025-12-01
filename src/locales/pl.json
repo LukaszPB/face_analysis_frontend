@@ -86,5 +86,12 @@
     "Róż w kremie daje naturalny efekt i świetnie sprawdza się przy cerze suchej.",
     "Nie trzyj twarzy po nałożeniu makijażu – dotyk może ścierać produkty i zaburzać trwałość."
   ],
+  "error_messages": {
+    "NO_FILE": "Ups! Prosimy o wybranie zdjęcia do analizy. Wygląda na to, że nie przesłano żadnego pliku.",
+    "NO_FACE": "Nie znaleziono twarzy. Upewnij się, że na zdjęciu jest wyraźna, pojedyncza twarz skierowana do przodu.",
+    "TOO_MANY_FACES": "Wykryto zbyt wiele twarzy (Znaleziono: {count}). Prosimy o przesłanie zdjęcia z tylko jedną osobą.",
+    "SERVER_ERROR": "Przepraszamy, wystąpił niespodziewany błąd serwera. Spróbuj ponownie za chwilę lub z innym zdjęciem.",
+    "UNKNOWN_UPLOAD_ERROR": "Wystąpił nieznany problem podczas wysyłania zdjęcia. Sprawdź format pliku lub spróbuj ponownie."
+  },
   "announcement": "Ogłoszenie!!"
 }

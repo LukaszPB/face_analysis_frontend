@@ -37,7 +37,7 @@ export default {
   },
   methods: {
     getImagePath() {
-        return `src/assets/images/${this.description}/${this.title}.png`;
+        return `public/images/${this.description}/${this.title}.png`;
     }
   }
 }
