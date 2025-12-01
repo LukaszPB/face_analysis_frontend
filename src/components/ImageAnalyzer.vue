@@ -156,7 +156,7 @@ export default {
 
       try {
         const response = await axios.post(
-          'http://127.0.0.1:5000/process-image',
+          'https://face-analysis-server-0wf3.onrender.com//process-image',
           formData,
           { headers: { 'Content-Type': 'multipart/form-data' } }
         );
